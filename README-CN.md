@@ -1,6 +1,5 @@
 # EasyDock - 分子对接自动化工具
-[README-EN](https://gitlab.igem.org/2025/software-tools/yau-china/-/blob/main/EasyDock/README.md)
-
+[README-EN](https://github.com/twy2020/EasyDock/blob/main/README.md)
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -282,4 +281,5 @@ tail -f docking_results/Docked.log
   url = {https://github.com/twy2020/EasyDock},
   note = {Local automated molecular docking tool with full protein coverage}
 }
+
 ```
