@@ -1,0 +1,28 @@
+# Molecular Docking Default Configuration
+
+# Input Parameters
+pdb_id: "8WRF"
+smiles: "Cn1c2cccc(=O)c-2nc2ccccc21"
+ligand_name: "LIG"
+
+# Working Directory
+work_dir: "docking_results"
+
+# Docking Parameters
+docking_params:
+  exhaustiveness: 8
+  num_modes: 9
+  energy_range: 10
+  box_size: 8.0
+
+# Ligand Preparation
+ligand_prep:
+  num_conformations: 5
+  prune_rms_thresh: 0.5
+
+# Output Options
+output:
+  generate_2d: true
+  generate_3d: true
+  save_complex: true
+  image_quality: "high"
